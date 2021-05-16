@@ -36,7 +36,7 @@ To clone
 
 ```bash
 git clone https://github.com/sivasaithota/bw_assignment.git
-# checkout prestaging branch
+# checkout master branch
 ```
 
 ### Installation
