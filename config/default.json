@@ -1,0 +1,29 @@
+{
+  "Base": {
+    "Url": "https://app.gethyphen.com/",
+    "username": "hyphen_admin@acmetest.com",
+    "password": "34067"
+  },
+  "Path": {
+    "screenshotPath": "../../reports/screenshot",
+    "reports": {
+      "jsonReport"  : "../../reports/json-report/report.json",
+      "HTMLReport"  : "../../reports/html-report/report.html",
+      "HTMLFolder": "../../reports/html-report/"
+    }
+  },
+  "Wait": {
+    "XS": 1000,
+    "S": 3000,
+    "M": 10000,
+    "L": 30000,
+    "XL": 60000,
+    "XXL": 240000
+  },
+  "puppeteer": {
+    "slowMo": 50,
+    "fullScreen": "--start-fullscreen",
+    "windowSize": "--window-size=1920,1040",
+    "sandBox":"--no-sandbox"
+  }
+}

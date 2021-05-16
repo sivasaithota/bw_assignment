@@ -1,0 +1,31 @@
+{
+  "name": "betterworks_automation",
+  "version": "1.0.0",
+  "description": "Test Automation",
+  "main": "index.js",
+  "dependencies": {
+    "config": "^3.2.4",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "jest": "^24.9.0",
+    "jest-html-reporters": "^1.2.0",
+    "js-yaml": "^3.13.1",
+    "log4js": "^5.3.0",
+    "puppeteer": "^2.0.0",
+    "puppeteer-cluster": "^0.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0"
+  },
+  "scripts": {
+    "lint": "node ./node_modules/eslint/bin/eslint .",
+    "test": "jest --json --outputFile=reports/json-report/report.json --maxWorkers=5 --forceExit"
+  },
+  "author": "Sivasai Thota",
+  "license": "ISC"
+}
